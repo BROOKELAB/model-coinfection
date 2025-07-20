@@ -75,6 +75,7 @@ calc.viable.cor(viables.35.c) # r = -0.07171804 #p = 0.109219
 
 #calculate fitness for each genotype
 load("rdata/resistance_fitness_list.RData")
+load("rdata/combo.RData")
 
 calc.fitness.noepi <- function(gen){
   fitness <- as.data.frame(matrix(ncol = 8, nrow = 1))
